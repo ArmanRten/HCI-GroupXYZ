@@ -1,0 +1,20 @@
+Time,Location,CO2,Temperature,Humidity,Type of environment,Main landmark/s,Connection with green/Blue spaces,Wind,Air smell - quantity,Air smell - quality,Environmental noise,Traffic (cars/boats),Quantity of people,Percentage of Residents,Percentage of Tourists,Percentage of Students
+13:25:00,Santa Lucia,521,12,56,Public Area,stazione di venezia,High connection,Low,Low,Bad,Medium,Average Traffic,Average,10,70,20
+13:34:00,Ponte della Costituzione,465,11,63,Public Area,Ponte della Costituzione,Very High Connection,Medium,Medium,Fair,High,Lot of traffic,Lot of people,20,40,40
+13:43:00,Piazzale Roma,447,11,63,Public Area,Piazzale Roma,Low connection,Low,Low,Bad,High,Lot of traffic,Lot of people,40,40,20
+13:49:00,Piazzale Roma,473,12,58,Public Area,Piazzale Roma,Low connection,Low,Low,Bad,Medium,Average traffic,Average,70,20,10
+13:54:00,Fondamenta Tre Ponti,481,12,59,Residual Area,Fondamenta Tre Ponti,High connection,Medium,Medium,Fair,Medium,Lot of traffic ,Lot of people,30,30,40
+14:03:00,Fondamenta Rossa,422,13,55,Residual Area,Fondamenta Rossa,Low connection,Medium,High,Good,High,no/limited traffic,no/limited number of people,25,5,70
+14:09:00,Fondamenta Briati,434,13,59,University Area,Ca’ foscari palazzina Briati,Average connection,Medium,High,Good,Low,no/limited traffic,no/limited number of people,20,0,80
+14:16:00,Chiesa Dell’Angelo Raffaele,452,11,66,Work Area,Chiesa Dell’Angelo Raffaele,High connection,Low,Medium,Bad,Low,No/limited traffic,no/limited number of people,90,0,10
+14:23:00,Salizada de la chiesa,439,11,65,Work Area,Salizada de la chiesa,High connection,High,Medium,Bad,Low,No/limited traffic,no/limited number of people,100,0,0
+14:31:00,chiesa di San Nicolo,439,11,65,Residential Area,chiesa di San Nicolo,High connection,Low,High,Good,Low,No/limited traffic,No/limited number of people ,0,0,0
+14:39:00,Iauv- planning Climate Change Lab,449,11,67,University Area,Iauv- planning Climate Change Lab,High connection,Medium,High,Good,Medium,No/limited traffic,Average,5,0,95
+14:50:00,Calle dei Secchi,450,10,70,University Area,Teatro Ca’ Foscari,Low connection,Medium,High,Good,Low,No/limited traffic,No/limited number of people,100,0,0
+14:58:00,Canale Scomenzera,423,10,71,Work Area,Canale Scomenzera,High connection,Medium,Medium,Fair,Medium,No/limited traffic,No/limited number of people,100,0,0
+15:10:00,Venezia Lines,443,10,74,Work Area,Venezia Lines,High connection,Medium,Low,Bad,High,Lot of traffic,no/limited number of people,100,0,0
+15:18:00,Universita’ Iuav di magazzino 6,439,10,72,University Area,Universita’ Iuav di magazzino 6,High connection,Low,Medium,Good,Medium,Average traffic,no/limited number of people,10,0,90
+15:23:00,Fondamenta Zattare al Ponte Longo,436,10,70,Residential Area,Fondamenta Zattare al Ponte Longo,No connection,Low,High,Good,High,no/limited traffic,Average,10,0,90
+15:33:00,Fondamenta Ognisanti,478,12,65,Work Area,Fondamenta Ognisanti,Average connection,Low,Medium,Fair,Medium,no/limited traffic,no/limited number of people,70,30,0
+15:40:00,Min. sanita’ Dip. Prev. Usma,466,10,73,Residential Area,Min. sanita’ Dip. Prev. Usma,High connection,Low,High,Good,Medium,lot of traffic,lot of people ,20,50,30
+15:47:00,CFZ Zattere Biblioteca,490,10,72,University Area,CFZ Zattere Biblioteca,High connection,Medium,High,Good,Medium,lot of traffic,Average,10,20,70
