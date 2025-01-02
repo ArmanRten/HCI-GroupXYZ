@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Plot Display</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 10px 0;
+            color: #444;
+            font-size: 2em;
+        }
+        h2 {
+            margin: 5px 0;
+            color: #666;
+        }
+        div {
+            margin: 20px auto;
+            max-width: 90%;
+        }
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            background: #007BFF;  /* Blue color */
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+        button:hover {
+            background: #0056b3;  /* Darker blue on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .chart-container {
+            width: 100%;
+            height: 700px;  /* Increased height to give room for the plot */
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interactive Plot Display</h1>
+        <h2>Interactive Visualization of Environmental Data</h2>
+    </header>
+
+    <div>
+        <button onclick="showPlot('plot1')">Plot 1: Strip Plot</button>
+        <button onclick="showPlot('plot2')">Plot 2: Violin Plot</button>
+        <button onclick="showPlot('plot3')">Plot 3: 3D Scatter Plot</button>
+        <button onclick="showPlot('plot4')">Plot 4: Polar Chart</button>
+        <button onclick="showPlot('plot5')">Plot 5: Histogram</button>
+        <button onclick="showPlot('plot6')">Plot 6: Box Plot</button>
+        <button onclick="showPlot('plot7')">Plot 7: Dynamic Scatter Plot</button>
+        <button onclick="showPlot('plot8')">Plot 8: Parallel Coordinates Plot</button>
+        <button onclick="showPlot('plot9')">Plot 9: Dynamic Dropdown Scatter Plot</button>
+        <button onclick="showPlot('plot10')">Plot 10: Parallel Coordinates Plot</button>
+        <button onclick="showPlot('plot11')">Plot 11: Interactive Bubble Chart</button>
+        <button onclick="showPlot('plot12')">Plot 12: Heatmap</button>
+        <button onclick="showPlot('plot13')">Plot 13: Interactive Scatter Plot</button>
+        <button onclick="showPlot('plot14')">Plot 14: Interactive Pie Chart</button>
+        <button onclick="showPlot('plot15')">Plot 15: Interactive Line Chart</button>
+        <button onclick="showPlot('plot16')">Plot 16: Interactive Bar Chart</button>
+    </div>
+
+    <!-- Containers for plots -->
+    <div id="plot1" class="chart-container hidden"><iframe src="plot1.html"></iframe></div>
+    <div id="plot2" class="chart-container hidden"><iframe src="plot2.html"></iframe></div>
+    <div id="plot3" class="chart-container hidden"><iframe src="plot3.html"></iframe></div>
+    <div id="plot4" class="chart-container hidden"><iframe src="plot4.html"></iframe></div>
+    <div id="plot5" class="chart-container hidden"><iframe src="plot5.html"></iframe></div>
+    <div id="plot6" class="chart-container hidden"><iframe src="plot6.html"></iframe></div>
+    <div id="plot7" class="chart-container hidden"><iframe src="plot7.html"></iframe></div>
+    <div id="plot8" class="chart-container hidden"><iframe src="plot8.html"></iframe></div>
+    <div id="plot9" class="chart-container hidden"><iframe src="plot9.html"></iframe></div>
+    <div id="plot10" class="chart-container hidden"><iframe src="plot10.html"></iframe></div>
+    <div id="plot11" class="chart-container hidden"><iframe src="plot11.html"></iframe></div>
+    <div id="plot12" class="chart-container hidden"><iframe src="plot12.html"></iframe></div>
+    <div id="plot13" class="chart-container hidden"><iframe src="plot13.html"></iframe></div>
+    <div id="plot14" class="chart-container hidden"><iframe src="plot14.html"></iframe></div>
+    <div id="plot15" class="chart-container hidden"><iframe src="plot15.html"></iframe></div>
+    <div id="plot16" class="chart-container hidden"><iframe src="plot16.html"></iframe></div>
+
+    <script>
+        function showPlot(plotId) {
+            const plots = ['plot1', 'plot2', 'plot3', 'plot4', 'plot5', 'plot6', 'plot7', 'plot8', 'plot9', 'plot10', 'plot11', 'plot12', 'plot13', 'plot14', 'plot15', 'plot16'];
+            plots.forEach(id => {
+                document.getElementById(id).className = 'chart-container hidden';
+            });
+            document.getElementById(plotId).className = 'chart-container visible';
+        }
+    </script>
+
+</body>
+</html>
